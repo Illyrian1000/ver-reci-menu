@@ -5,7 +5,9 @@ export default function Header() {
       <h1>Ver Reci Tymi</h1>
       <ul>
         <li>Home</li>
-        <li>Contact</li>
+        <a href="tel:+355697268387">
+          <li>Call</li>
+        </a>
       </ul>
     </header>
   );

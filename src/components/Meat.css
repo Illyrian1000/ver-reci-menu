@@ -22,3 +22,9 @@
   font-size: 17px;
   /* text-align: end; */
 }
+
+@media screen and (max-width: 500px) {
+  .item-card {
+    width: 90%;
+  }
+}
