@@ -1,0 +1,39 @@
+header {
+  background-image: url(../../public/img/ver-reci-cover2.jpg);
+
+  background-size: cover;
+  background-position: 50% 50%;
+
+  background-repeat: no-repeat;
+  height: 400px;
+  color: white;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+header li {
+  background-color: rgba(119, 119, 119, 0.5);
+  padding: 3px 7px;
+  cursor: pointer;
+
+  transition: border-bottom ease 0.4s;
+  border-bottom: 1px solid transparent;
+  font-weight: 600;
+}
+
+header li:hover {
+  border-bottom: 1px solid white;
+}
+
+header h1 {
+  margin: 0;
+  margin: 0 0 10px 20px;
+}
