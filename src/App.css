@@ -8,6 +8,7 @@
 .content-cont {
   width: clamp(400px, 70%, 70%);
   background-color: white;
+  min-height: 100vh;
 }
 
 .description-cont {

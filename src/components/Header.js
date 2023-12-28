@@ -1,13 +1,17 @@
+import { Link } from "react-router-dom";
+
 import "./Header.css";
 export default function Header() {
   return (
     <header>
       <h1>Ver Reci Tymi</h1>
       <ul>
-        <li>Home</li>
-        <a href="tel:+355697268387">
-          <li>Call</li>
-        </a>
+        <Link to="/">
+          <li>Menu</li>
+        </Link>
+        <Link to="/contact">
+          <li>Contact</li>
+        </Link>
       </ul>
     </header>
   );
